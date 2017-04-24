@@ -14,7 +14,8 @@ get '/the real secret' do
 end
 
 get '/cat' do
-  <div>
+  "<div>
     <img src='http://bit.ly/1eze8aE'
-  </div>
+    style='border: 3px dashed red'
+  </div>"
 end
