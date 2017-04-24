@@ -23,3 +23,9 @@ get '/named-cat' do
   @name = params[:name]
   erb(:index)
 end
+
+get '/cat-form' do
+  p params
+  @name = params[:name]
+  erb :cat_form
+end
